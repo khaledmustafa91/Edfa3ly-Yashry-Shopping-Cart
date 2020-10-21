@@ -1,0 +1,16 @@
+we have a lot of products and they are common in a lot of features and methods then, create a parent class
+Product and all the product will inherited from it and it can use all methods and properties
+Class Tshirt, Shoes , jacket and Pants inherit from Products
+some handle operations like how i can make a discount by another sell product or
+just discount this product without any conditions so, pass 2 arguments to
+setDiscount function (discount value , array of Products and number of items ) and inside the function will check
+if the array null then  will put the discount directly if not will iterate into the array and check
+if the number of customer buy from all products in this array and the number of products to make the discount
+if the customer buy greater than or equal discount product items then will apply the discount.
+how the price calculated first calculate the the result of product price multiply to number of product items.
+then calculate the taxes of each product then calculate discount on the actual price if exist.
+in currency section will use API currency conversion if user select another currency from USD will run the
+ChangeCurrency function in this function use the price in USD then convert it to the desire currency
+the api will get the actual price and update the product price
+in the main page will use the POST and GET to send data to the Product class and calculate all the results
+then send the array of result in the link to main page to display it
